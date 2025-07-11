@@ -10,11 +10,11 @@ A responsive landing page built with HTML and CSS as part of the Frontend Mentor
 
 ### Desktop Design
 
-![Desktop Design](design/desktop-design.jpg)
+![Desktop Design](design/desktop.png)
 
 ### Mobile Design
 
-![Mobile Design](design/mobile-design.jpg)
+![Mobile Design](design/mobile.png)
 
 ## 🛠️ Built With
 
