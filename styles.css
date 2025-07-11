@@ -1,0 +1,93 @@
+:root {
+  --heading-font: "Poppins", sans-serif;
+  --body-font: "Open Sans", sans-serif;
+  --main-color: hsl(257, 40%, 49%);
+  --seconday-color: hsl(300, 69%, 71%);
+}
+
+/* TYPOGRAPHY */
+
+.intro h1 {
+  font-family: var(--heading-font);
+  font-weight: 600;
+}
+
+.intro p,
+button {
+  font-family: var(--body-font);
+  font-weight: 400;
+}
+
+/* LAYOUT */
+
+body {
+  margin: 0;
+  background-image: url(images/bg-desktop.svg);
+  background-color: var(--main-color);
+  background-size: cover;
+  color: white;
+}
+
+header,
+.container,
+footer {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.container {
+  margin-top: 3em;
+  display: flex;
+  justify-content: space-between;
+  gap: 3em;
+}
+
+footer {
+  display: flex;
+  justify-content: end;
+  gap: 0.5em;
+  padding-bottom: 1em;
+}
+
+/* HEADER */
+
+header img {
+  max-width: 185px;
+  padding: 2rem 0;
+}
+
+/*  ILLUSTRATION */
+
+.illustration {
+  width: 65%;
+}
+
+.illustration img {
+  width: 100%;
+}
+
+/* INTRODUCTION */
+
+.intro {
+  width: 40%;
+}
+
+.intro button {
+  background: white;
+  border: none;
+  border-radius: 25px;
+  padding: 1em 2em;
+  width: 40%;
+  font-size: 0.9em;
+  color: var(--main-color);
+}
+
+/* FOOTER */
+
+.icon {
+  border: 1px solid white;
+  border-radius: 50%;
+  fill: white;
+  padding: 0.25em;
+  scale: 1;
+}
